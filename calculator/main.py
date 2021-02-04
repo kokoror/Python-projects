@@ -42,5 +42,7 @@ while continue_cal:
   if if_continue == 'n':
     clear()
     number1 = float(input("What is the first number? "))
+   #another way to start a new round of calculation is instead having number1 = float(input("What is the first number? ")), we use recurtion. 
+   #to do this, include the entire block of code in the function calculator(), when run up to this point, call calculator() to start the problem all over.
     
 
