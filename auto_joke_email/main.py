@@ -32,3 +32,5 @@ if weekday == 3:
     connection.login(user=my_email, password=my_password)
     connection.sendmail(from_addr=my_email, to_addrs=to_email, msg=f'Subject:Weekly Joke From Rachel\n\n-{question}\n-{answer}')
     connection.close()
+
+    # run daily tast on PythonAnywhere www.pythonanywhere.com
